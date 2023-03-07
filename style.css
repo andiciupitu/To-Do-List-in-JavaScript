@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-shonejai-1227511.jpg");
+    background-size: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -150vw 0;
+  animation-name: loop;
+  animation: loop 23s infinite;
+  animation-duration: infinite;
+  }
+  @keyframes loop {
+    from {
+         background-position: -1000px  0px;
+    }
+    to {
+       background-position: 0px  0px;
+    }
+   }
+  h1 {
+    color: white;
+    -webkit-text-stroke: 1px rgb(4, 200, 4);
+  }
+  h2 {
+    color: white;
+    -webkit-text-stroke: 1px rgb(4, 200, 4);
+  }
+#tasks_div {  
+  width: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+  h1 {
+    text-align: center;
+    margin: 24px 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0;
+  }
+  
+  form label {
+    margin-right: 8px;
+  }
+  
+  form input[type="text"] {
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    width: 240px;
+  }
+  
+  form button[type="submit"] {
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+  }
+  
+  li button {
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  #completed-tasks li {
+    background-color: 99FF99;	
+  }
+  
+  #completed-tasks li button {
+    visibility: hidden;
+  }
+
+  .myButton {
+	background-color:#44c767;
+	border-radius:20px;
+	border:1px solid #18ab29;
+	display:inline-block;
+    margin-top: 10vh;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 31px;
+}
+
+.myButton2:active  {
+    background-color: pink;
+}
+#video-container {
+  text-align: center;
+}
+  
